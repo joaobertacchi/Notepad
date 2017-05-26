@@ -1,5 +1,5 @@
 title:            JE.Bertacchi
-description:      "Blogging is fun"
+description:      "Empreendedorismo e programação"
 logo:             logo.png
 disqus_shortname: jebertacchi
 share:            true
@@ -32,17 +32,17 @@ bing_verify:
 # Links to include in footer navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Artigos
     url: /
     external: false
     icon: home
-  - title: Featured Posts
+  - title: Por Data
     url: /featured
     external: false
-  - title: Categories
+  - title: Por Categoria
     url: /categories
     external: false
-  - title: About
+  - title: Sobre
     url: /hossain-mohd-faysal
     external: false
 
