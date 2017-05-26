@@ -38,10 +38,13 @@ links:
     icon: home
   - title: Featured Posts
     url: /featured
+    external: false
   - title: Categories
     url: /categories
+    external: false
   - title: About
     url: /hossain-mohd-faysal
+    external: false
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Sao_Paulo
