@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /hossain-mohd-faysal/index.html
+permalink: /about/index.html
 title: HOSSAIN MOHAMMAD FAYSAL
 tags: [Hossain, Mohd, Faysal, hmfaysal]
 image:
