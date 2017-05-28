@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/index.html
-title: JOÃO EDUARDO FERREIRA BERTACCHI
+title: JOÃO EDUARDO BERTACCHI
 tags: [João, Eduardo, Ferreira, Bertacchi, jebertacchi]
 image:
   feature: Hossain-Mohd-Faysal.jpg
