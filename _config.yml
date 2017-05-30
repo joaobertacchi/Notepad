@@ -28,7 +28,10 @@ owner:
 google_analytics:   UA-99991050-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
+
+facebook:
+  app_id: 318114241958100     
 
 # Links to include in footer navigation
 # For external links add external: true
