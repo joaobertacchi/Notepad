@@ -31,7 +31,7 @@ google_verify:
 bing_verify:
 
 facebook:
-  app_id: 318114241958100     
+  app_id: 318114241958100
 
 # Links to include in footer navigation
 # For external links add external: true
