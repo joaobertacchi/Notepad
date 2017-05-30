@@ -1,14 +1,19 @@
 ---
 layout: page
 permalink: /featured/
-title: ARTIGOS POR DATA
+title: ARTIGOS EM DESTAQUE
 description: "Artigos ordenados por data."
 ---
 
 <ul class="post-list">
 {% for post in site.posts %}
 {% if post.featured %}
-  <li><article><i class="icon-star-half-empty"></i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  <li><article><i class="icon-star-half-empty"></i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">
+    {{ post.date | date: "%-d" }}
+    {% assign m = post.date | date: "%-m" | minus: 1 %}
+    {{ site.data.pt-BR.months[m] }}
+    {{ post.date | date: "%Y" }}
+  </time></span></a></article></li>
 {% endif %}
 {% endfor %}
 </ul>
