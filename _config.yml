@@ -37,7 +37,7 @@ links:
     url: /
     external: false
     icon: home
-  - title: Por Data
+  - title: Em Destaque
     url: /featured
     external: false
   - title: Por Categoria
