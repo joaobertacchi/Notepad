@@ -41,7 +41,12 @@
             </div>
             <div class="summer-post-title bg-check">
                 <h1>{{ page.title }}</h1>
-                <p>por <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}em {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time></strong></p>
+                <p>por <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}em {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">
+                    {{ page.date | date: "%-d" }}
+                    {% assign m = page.date | date: "%-m" | minus: 1 %}
+                    {{ site.data.pt-BR.months[m] }}
+                    {{ page.date | date: "%Y" }}
+                </time></strong></p>
             </div>
             <div class="bg-img"></div>
         </header>

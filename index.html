@@ -15,7 +15,9 @@ tags: [Joao, João, Eduardo, Ferreira, Bertacchi, computação, computacao, engi
                         {{ post.date | date: "%d" }}
                     </span>
                     <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
+                        {% assign m = post.date | date: "%-m" | minus: 1 %}
+                        {{ site.data.pt-BR.months[m] }}
+                        {{ post.date | date: "%Y" }}
                     </span>
                 </time>
             </span>
