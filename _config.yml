@@ -43,6 +43,9 @@ links:
   - title: Por Categoria
     url: /categories
     external: false
+  - title: Por Tag
+    url: /tags
+    external: false
   - title: Sobre
     url: /about
     external: false
