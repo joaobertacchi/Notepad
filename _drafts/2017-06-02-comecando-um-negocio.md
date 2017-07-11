@@ -4,7 +4,7 @@ published: false
 mathjax: false
 featured: false
 comments: false
-imagefeature: "Leadership-Penguins.jpg"
+imagefeature: "penguin.jpg"
 title: Coloque o pé na água antes de mergulhar
 headline: >-
   Teste o seu mercado antes de qualquer coisa. Mas teste de verdade. Isto irá
