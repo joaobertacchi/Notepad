@@ -27,3 +27,14 @@ E como fazer então? Você precisa testar se o problema que sua empresa se prop�
 MVP -> teste de hipóteses
 low-fidelity
 high-fidelity
+
+Exemplo: Feedback de clientes de salão de cabelereiro
+
+Conversa: Maior problema: retenção de clientes -> falta de feedback negativo
+
+Solução: App para feedback do cliente.
+
+Hipótese 1:
+
+Hipótese 1: Havendo oportunidade o cliente do salão dará feedback espontaneamente
+Experimento 1: Formulário em papel para preenchimento pelo cliente disponível na recepção (MVP low-fidelity)
